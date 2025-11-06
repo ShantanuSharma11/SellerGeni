@@ -1,0 +1,51 @@
+.header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.rightcontent
+{
+    display: flex;
+    flex-direction: row;
+}
+.img1 img
+{
+    height: 40px;
+    width: 100px;
+}
+.img2 img 
+{
+    height: 30px;
+    width: 100px;
+}
+.rightcontent 
+{
+    margin:30px;
+}
+.rightcontent span {
+  height: 30px;
+  width: 0px;
+  border: 1px solid black;
+  display: inline-block;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+    margin-left: 23px;
+}
+
+.btn1 {
+    width: 100px;
+    height: 36px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: none;
+    border:none;
+    background-color: white;
+
+}
